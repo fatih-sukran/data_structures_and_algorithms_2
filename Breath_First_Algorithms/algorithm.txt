@@ -1,0 +1,9 @@
+Algorithm :
+1-) Count each node’s predecessors – We need a 1D array
+2-) Create a queue for the nodes – We need a queue
+3-) If you have nodes which their predecessor counts are 0 (zero) put them into the queue
+4-) Create a loop which it checks whether the queue is empty or NOT:
+    If the queue is NOT empty then do the following
+        a-) Get a node from queue and print it out
+        b-) Subtract 1 of predecessor counts of each neighbor of the node you took in (a)
+        c-) If predecessor count of a node becomes 0 (zero), put that node into the queue

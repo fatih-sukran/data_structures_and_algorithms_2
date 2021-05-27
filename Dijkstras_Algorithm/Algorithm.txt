@@ -1,0 +1,11 @@
+Algorithm :
+1-) You need known, cost (dv array) and previous arrays. Known array will be used to check
+whether that node’s shortest path is known or not (Like visited array of Depth-First Topologisl Sort)
+Cost array will contain the minimum cost of reaching from starting point to the vertex. Previous
+array will be used to find the path from start to the vertex.
+2-) Determine a starting vertex / source
+3-) Find the neighbors among the UNKNOWN neighbors
+4-) As our algorithm is a GREEDY one pick the node with the minimum cost. Make it known and
+update its cost (to reach from source) if makes it better (if it doesn’t make it better do NOT
+UPDATE!)
+5-) Until all the nodes become known repeat the steps 3 and 4

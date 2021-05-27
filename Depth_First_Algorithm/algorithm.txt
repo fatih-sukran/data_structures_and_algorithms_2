@@ -1,0 +1,8 @@
+Algorithm :
+1-) Create a visited array to check whether a node/vertex has been visited or not. (Its initial values 
+are FALSE/zero for each node!)
+2-) Until all the vertices’ get visited (LOOP) start a RECURSIVE ordering from the node (The
+starting node will up to you!)
+    a-) Make visited of the node TRUE after you visit it
+    b-) Check the node’s neighbors – Check all the neighbor nodes → LOOP
+        i-) If you find an unchecked neighbor start a recursive ordering call for that node
